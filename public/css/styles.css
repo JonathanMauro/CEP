@@ -1,0 +1,69 @@
+/* General */
+* {
+    font-family: 'Roboto';
+  }
+
+
+body {
+    background-color: #ffffff;
+    align-items: center;
+    position: relative;
+}
+
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px 0;
+}
+
+.navbar-nav a:hover {
+    color: #808080;
+}
+
+
+
+
+/*Botoes FORM*/
+.button-container {
+    text-align: center;
+    /* Centralize os botões horizontalmente, se desejar */
+}
+
+.button-container input[type="submit"] {
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.custom-button {
+    background: none; /* Remove a cor de fundo */
+    border: none; /* Remove as bordas */
+    padding: 0; /* Remove o espaço de preenchimento interno */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    outline: none; /* Remove o contorno de foco */
+}
+
+
+.starButton{
+    color: #000000;
+}
+
+.editButton{
+    color: #076414;
+}
+
+.deleteButton{
+    color: #a00202;
+}
+
+.starYellowButton{
+    
+    color:#fde402;
+}
+
